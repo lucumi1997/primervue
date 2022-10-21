@@ -21,16 +21,16 @@
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a href="/" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium"
+              <a href="/" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium transition delay-150 duration-150 ease-in-out ..."
                 :class="['text-slate-700 fw-bold hover:bg-slate-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']">Inicio</a>
               <router-link to="/servicios" v-on:mouseover="active = !active"
-                class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium"
+                class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium transition delay-150 duration-150 ease-in-out ..."
                 :class="['text-slate-700 fw-bold hover:bg-slate-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']">
                 Servicios</router-link>
-              <router-link to="/acerca" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium"
+              <router-link to="/acerca" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium transition delay-150 duration-150 ease-in-out ..."
                 :class="['text-slate-700 fw-bold hover:bg-slate-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']">
                 Acerca</router-link>
-              <router-link to="/contactos" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium"
+              <router-link to="/contactos" class="text-slate-700 fw-bold px-3 py-2 rounded-md text-sm font-medium transition delay-150 duration-150 ease-in-out ..."
                 :class="['text-slate-700 fw-bold hover:bg-slate-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']">
                 Contacto</router-link>
             </div>

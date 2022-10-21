@@ -6,15 +6,19 @@ import Footer from './components/Estructura/Footer.vue'
 </script>
 
 <template>
-  <Navbar/>
-  <RouterView />
-  <Footer/>
+  <div class="miapp">
+    <Navbar />
+      <RouterView/>
+    <Footer />
+  </div>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-*{
+
+* {
   font-family: 'Outfit', sans-serif;
 
 }
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white py-12">
+    <div class="bg-white py-12 h-screen">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
                 <h2 class="text-lg font-semibold text-indigo-600">Servicios</h2>
@@ -47,6 +47,18 @@ const features = [
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: GlobeAltIcon,
+    },
+    {
+        name: 'Seguridad',
+        description:
+            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        icon: ScaleIcon,
+    },
+    {
+        name: 'Capacidad analítica',
+        description:
+            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        icon: ChatBubbleBottomCenterTextIcon,
     },
     {
         name: 'Seguridad',

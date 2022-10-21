@@ -1,6 +1,6 @@
 <template>
-  <div class=""></div>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="main">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -94,6 +94,8 @@
       </div>
     </div>
   </div>
+  </div>
+ 
 </template>
 
 <script setup>
@@ -128,5 +130,9 @@ export default {
             100% {
                 opacity: 1;
             }
+        }
+        .main{
+          flex: 1 0 auto;
+
         }
 </style>
